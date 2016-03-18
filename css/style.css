@@ -1,0 +1,63 @@
+/*style.css*/
+
+body, html {
+	margin: 0;
+	font-family: monospace;
+	background-color: #dedede;
+}
+
+.header-title {
+}
+
+.top-link {
+	position: fixed;
+	width: 20px;
+	height: 20px;
+	bottom: 20px;
+	right: 20px;
+	border-radius: 99px;
+	border:2px solid #000;
+	border:2;
+	text-align: center;
+	line-height: 20px;
+	text-decoration: none;
+}
+
+.link {
+	margin-bottom: 30px;
+}
+
+.link-img {
+	position: relative;
+}
+
+.link-content, .link-header {
+	background-color: #fff;
+}
+
+.link-header {	
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	opacity:0.5;
+	line-height: 5px;
+	font-style: italic;
+}
+
+.link-content {
+	padding: 5px 10px;
+}
+
+.link-actions {
+	text-align: center;
+	font-size: 9px;
+	text-transform: uppercase;
+
+}
+.link-actions a {
+	opacity:0.5;
+}
+
+.link-actions a:hover {
+	opacity: 1;
+}
