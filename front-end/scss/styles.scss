@@ -1,0 +1,78 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: monospace;
+	background-color: #dedede;
+}
+
+.header {
+	text-align: center;
+	color: #fff;
+}
+
+.hopper {
+	width: 640px;
+	margin: 0 auto;
+}
+
+.link {
+
+}
+.link-header {
+	background-color: #FFF;
+}
+.link-header-img {
+	width: 100%;
+	background-color: #FFF;
+}
+
+.link-header-bar{
+	position: relative;
+	padding: 0 20px;
+	height: 50px;
+	margin-top: -52px;
+	color: #fff;
+	z-index: 122;
+	background: -moz-linear-gradient(top, rgba(17,3,3,0) 0%, rgba(17,3,3,0) 2%, rgba(17,3,3,0.53) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(17,3,3,0) 0%,rgba(17,3,3,0) 2%,rgba(17,3,3,0.53) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(17,3,3,0) 0%,rgba(17,3,3,0) 2%,rgba(17,3,3,0.53) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00110303', endColorstr='#87110303',GradientType=0 );
+}
+
+.link-header-bar-time {
+	float: left;
+}
+.link-header-bar-handle {
+	float: right;
+	text-align: right;
+	margin-right: 10px;
+}
+
+.link-header-bar-avatar {
+	width: 40px;
+	border-radius: 40px;
+	float: right;
+}
+
+.link-content {
+	clear: both;
+	padding: 20px;
+	background-color: #FFF;
+	* {
+		display: inline;
+	}
+}
+
+.link-content-url {
+	opacity: 0.5;
+}
+
+.link-content-description p {
+	display: block;
+	margin-top: 10px;
+	line-height: 1.6;
+}
+
+.link-actions {
+	text-align: center;
+}
